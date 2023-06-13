@@ -26,54 +26,75 @@ function Input() {
           Please feel in the following information so that we can get to know you better. 
         </p>
         <form>
-        <label for='firstName'>First Name: </label>
-        <input id='firstName' type='text' onChange={handleInputChange} value={formData.firstName} />
-        <br />
-        <label for='lastName'>Last Name: </label>
-        <input id='lastName' type='text' onChange={handleInputChange} value={formData.lastName} />
-        <br />
-        <label for='age'>Age: </label>
-        <input id='age' type='text' onChange={handleInputChange} value={formData.age} />
-        <br />
-        <label for='email'>email: </label>
-        <input id='email' type='text' onChange={handleInputChange} value={formData.email} />
-        <br />
-        <label for='address'>Address: </label>
-        <input id='address' type='text' onChange={handleInputChange} value={formData.address} />
-        <br />
-        <label for='homeRoomClassNumber'>Home Room Class Number: </label>
-        <input id='homeRoomClassNumber' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
-        <br />
-        <label for='studentId'>Student ID: </label>
-        <input id='studentId' type='text' onChange={handleInputChange} value={formData.studentId} />
-        <br />
+        <h3>Personal Information</h3>
+        <div className={styles.formRow}>
+          <div className={styles.formColumn}>
+            <label htmlFor='firstName'>First Name: </label>
+            <input id='firstName' name='firstName' type='text' onChange={handleInputChange} value={formData.firstName} />
+            </div> 
+            <br />
+        <div className={styles.formColumn}>
+            <label htmlFor='lastName'>Last Name: </label>
+            <input id='lastName' name='lastName' type='text' onChange={handleInputChange} value={formData.lastName} />
+            </div>
+            
+        </div>
+          <br />
+        
+
+        <div className={styles.formRow}>
+            <div className={styles.formColumn}>
+              <label htmlFor='age'>Age: </label>
+              <input id='age' name='age' type='text' onChange={handleInputChange} value={formData.age} />
+            </div>
+            <br />
+        <div className={styles.formColumn}>
+            <label htmlFor='email'>Email: </label>
+            <input id='email' name='email' type='text' onChange={handleInputChange} value={formData.email} />
+            </div>
+        </div>
+        <h3>School Information</h3>
+          <div className={styles.formRow}>
+            <div className={styles.formColumn}>
+              <label htmlFor='address'>Address: </label>
+              <input id='address' name='address' type='text' onChange={handleInputChange} value={formData.address} />
+              
+            </div>
+            <div className={styles.formColumn}>
+              <br />
+              <label htmlFor='homeRoomClassNumber'>Home Room Class Number: </label>
+              <input id='homeRoomClassNumber' name='homeRoomClassNumber' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
+            </div>
+            <br />
+            <div className={styles.formColumn}>
+              <label htmlFor='homeRoomClassNumber'>Home Room Class Number: </label>
+              <input id='homeRoomClassNumber' name='homeRoomClassNumber' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
+            </div>
+            <div className={styles.formColumn}>
+              <label htmlFor='studentId'>Home Room Class Number: </label>
+              <input id='studentId' name='studentId' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
+            </div>
+          </div>
         
         <p>Favorite Lunch:</p>
-
-        <input type='radio' id='ice-cream' value='ice-cream' name='favoriteLunch' onChange={handleInputChange} checked={formData.favoriteLunch === 'ice-cream'} />
-        <label for='ice-cream'>Icecream</label><br />
-        <input type='radio' id='pizza' value='pizza' name='favoriteLunch' onChange={handleInputChange} checked={formData.favoriteLunch === 'pizza'} />
-        <label for='pizza'>Pizza</label><br />
-        <input type='radio' id='salmon' value='salmon' name='favoriteLunch' onChange={handleInputChange} checked={formData.favoriteLunch === 'salmon'} />
-        <label for='salmon'>Salmon</label><br />
-        <input type='radio' id='salad' value='salad' name='favoriteLunch' onChange={handleInputChange} checked={formData.favoriteLunch === 'salad'} />
-        <label for='salad'>Salad</label><br />
-        <input type='radio' id='pasta' value='pasta' name='favoriteLunch' onChange={handleInputChange} checked={formData.favoriteLunch === 'pasta'} />
-        <label for='pasta'>Pasta</label><br />
-        <input type='radio' id='burger' value='burger' name='favoriteLunch' onChange={handleInputChange} checked={formData.favoriteLunch === 'burger'} />
-        <label for='burger'>Burger</label><br />
         </form>
+        <h3>Favorite Lunch</h3>
+        <p>What is your favorite lunch option?</p>
+        <select name="favoriteLunch" onChange={handleInputChange} value={formData.favoriteLunch}>
+          <option value="">--Please choose an option--</option>
+          <option value="pizza">Pizza</option>
+          <option value="tacos">Tacos</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="salad">Salad</option>
+        </select>
       </div>
       <div className={styles.inputDisplay}>
-        <h2>Current User Input: </h2>
-        <h4>{formData.firstName}</h4>
-        <h4>{formData.lastName}</h4>
-        <h4>{formData.age}</h4>
-        <h4>{formData.email}</h4>
-        <h4>{formData.address}</h4>
-        <h4>{formData.homeRoomClassNumber}</h4>
-        <h4>{formData.studentId}</h4>
-        <h4>{formData.favoriteLunch}</h4>
+        <h2>Current User Input</h2>
+        {Object.entries(formData).map(([key, value]) => (
+          <>
+            <strong>{key}: </strong><span>{value}</span><br />
+          </>
+        ))}
       </div>
 
     </>
