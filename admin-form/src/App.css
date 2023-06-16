@@ -15,12 +15,18 @@ h2 {
     color: #2F4858;
   }
   input {
-    padding: 10px 15px;
+    padding: 5px;
     border: none;
     border-radius: 30px;
-    margin-left: 10px;
+    margin: 5px;
     font-size: 14px;
     color: #2F4858;
     background-color: #F5F6F8;
-    width: 220px;
+    width: auto;
+  }
+
+  @media (max-width: 600px) {
+    input {
+      width: 150px;
+    }
   }
