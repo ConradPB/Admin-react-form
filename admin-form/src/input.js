@@ -76,17 +76,54 @@ function Input() {
             </div>
           </div>
         
-        <p>Favorite Lunch:</p>
         </form>
-        <h3>Favorite Lunch</h3>
-        <p>What is your favorite lunch option?</p>
-        <select name="favoriteLunch" onChange={handleInputChange} value={formData.favoriteLunch}>
-          <option value="">--Please choose an option--</option>
-          <option value="pizza">Pizza</option>
-          <option value="tacos">Tacos</option>
-          <option value="sandwich">Sandwich</option>
-          <option value="salad">Salad</option>
-        </select>
+        <form>
+  <h3>Favorite Lunch</h3>
+  <p>What is your favorite lunch option?</p>
+  <label>
+    <input
+      type="radio"
+      name="favoriteLunch"
+      value="pizza"
+      onChange={handleInputChange}
+      checked={formData.favoriteLunch === "pizza"}
+    />
+    Pizza
+  </label>
+  <br />
+  <label>
+    <input
+      type="radio"
+      name="favoriteLunch"
+      value="tacos"
+      onChange={handleInputChange}
+      checked={formData.favoriteLunch === "tacos"}
+    />
+    Tacos
+  </label>
+  <br />
+  <label>
+    <input
+      type="radio"
+      name="favoriteLunch"
+      value="sandwich"
+      onChange={handleInputChange}
+      checked={formData.favoriteLunch === "sandwich"}
+    />
+    Sandwich
+  </label>
+  <br />
+  <label>
+    <input
+      type="radio"
+      name="favoriteLunch"
+      value="salad"
+      onChange={handleInputChange}
+      checked={formData.favoriteLunch === "salad"}
+    />
+    Salad
+  </label>
+</form>
       </div>
       <div className={styles.inputDisplay}>
         <h2>Current User Input</h2>
