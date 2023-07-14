@@ -21,7 +21,7 @@ function Input() {
   return (
     <>
       <div className={styles.emailContainer}>
-        <h2>Hello. Welcome our school</h2>
+        <h2>Hello. Welcome to our school</h2>
         <p>
           Please feel in the following information so that we can get to know you better. 
         </p>
@@ -64,11 +64,6 @@ function Input() {
               <br />
               <label htmlFor='homeRoomClassNumber'>Home Room Class Number: </label>
               <input id='homeRoomClassNumber' name='homeRoomClassNumber' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
-            </div>
-            <br />
-            <div className={styles.formColumn}>
-              <label htmlFor='studentId'>Home Room Class Number: </label>
-              <input id='studentId' name='studentId' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
             </div>
           </div>
         
