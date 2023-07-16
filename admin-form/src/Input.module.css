@@ -10,7 +10,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Montserrat', sans-serif;
-	width:75%;
+	width:70%;
 	max-width:none;
 	margin: 20px;
 	display: grid;
@@ -48,21 +48,21 @@ form {
 	margin-top: 270px;
   }
 
-  .formRow {
+.formRow {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 20px;
 
 }
   
-  .formColumn {
+.formColumn {
     flex: 1;
 	
 	margin: 0 10px;
 	flex-basis: calc(50% - 20px);
 }
   
-  .formColumn:last-child {
+.formColumn:last-child {
     margin-right: 0;
 }
 
@@ -70,7 +70,7 @@ form {
 	margin-bottom: 10px;
   }
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
 	.emailContainer,
 	.inputDisplay {
 	  width: auto;
