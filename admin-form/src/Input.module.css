@@ -1,4 +1,5 @@
 .emailContainer {
+	margin-top: 60px;
 	overflow: auto-enabled;
 	background-color: #FFFFFF;
 	box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
@@ -28,7 +29,7 @@
 	top: 40%;
 	left: 65%;
 	background-color: transparent;
-	padding: 40px;
+	padding: 4px;
 	text-align: center;
 	position: fixed;
 	transform: translate(-50%, -50%);
@@ -57,7 +58,6 @@ form {
   
 .formColumn {
     flex: 1;
-	
 	margin: 0 10px;
 	flex-basis: calc(50% - 20px);
 }
