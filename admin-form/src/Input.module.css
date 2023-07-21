@@ -12,7 +12,7 @@
 	transform: translate(-50%, -50%);
 	font-family: 'Montserrat', sans-serif;
 	width:80%;
-	max-width:none;
+	max-width:800px;
 	margin: 20px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -70,13 +70,14 @@ form {
 	margin-bottom: 10px;
   }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 	.emailContainer,
 	.inputDisplay {
-	  width: auto;
+	  width: 80%;
 	  max-width: none;
 	  padding: 10px;
 	}
 }
+
 
   
