@@ -79,5 +79,11 @@ form {
 	}
 }
 
-
+@media (max-width : 800px) {
+	.emailContainer,
+	.inputDisplay {
+	   width :100% ;
+	   
+	}
+ }
   
