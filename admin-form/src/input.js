@@ -119,9 +119,10 @@ function Input() {
       <div className={styles.inputDisplay}>
         <h2>Current User Input</h2>
         {Object.entries(formData).map(([key, value]) => (
-          <>
+
+          <React.Fragment key={key}>
             <strong>{key}: </strong><span>{value}</span><br />
-          </>
+          </React.Fragment>
         ))}
       </div>
 

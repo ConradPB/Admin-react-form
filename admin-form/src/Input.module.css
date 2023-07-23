@@ -1,89 +1,63 @@
 .emailContainer {
-	margin-top: 60px;
-	overflow: auto-enabled;
-	background-color: #FFFFFF;
-	box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
-	padding: 40px;
-	border-radius: 15px;
-	text-align: left;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: 'Montserrat', sans-serif;
-	width:80%;
-	max-width:800px;
-	margin: 20px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 20px;
-	align-items: center;
-	justify-items: center;
-
-	
-	
+    margin-top: 60px;
+    overflow: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width:80%;
+    max-width:800px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .inputDisplay {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
 	position: absolute;
-	top: 40%;
-	left: 65%;
-	background-color: transparent;
-	padding: 4px;
-	text-align: center;
-	position: fixed;
-	transform: translate(-50%, -50%);
-	font-family: 'Montserrat', sans-serif;
-	width: auto;
-	max-width: none;
-	margin: 20px;
-	
-	
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 form {
-	margin-top: 20px;
-  }
-
-  form:last-of-type {
-	margin-top: 270px;
-  }
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .formRow {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 20px;
-
+    flex-basis: 100%;
 }
   
 .formColumn {
-    flex: 1;
-	margin: 0 10px;
-	flex-basis: calc(50% - 20px);
-}
-  
-.formColumn:last-child {
-    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 20px);
+    margin: 0 10px;
 }
 
-.formColumn:first-child {
-	margin-bottom: 10px;
-  }
+.formColumn label {
+    margin-bottom: 10px;
+}
 
 @media (min-width: 600px) {
-	.emailContainer,
-	.inputDisplay {
-	  width: 80%;
-	  max-width: none;
-	  padding: 10px;
-	}
+    .emailContainer,
+    .inputDisplay {
+      width: 80%;
+      max-width: none;
+      padding: 10px;
+    }
 }
 
 @media (max-width : 800px) {
-	.emailContainer,
-	.inputDisplay {
-	   width :100% ;
-	   
-	}
+    .emailContainer,
+    .inputDisplay {
+       width :100% ;
+       
+    }
  }
-  
