@@ -1,3 +1,5 @@
+
+
 .emailContainer {
     margin-top: 60px;
     overflow: auto;
@@ -9,20 +11,14 @@
     font-family: 'Montserrat', sans-serif;
     width:80%;
     max-width:800px;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	
 }
 
 .inputDisplay {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 15px;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 
 form {
