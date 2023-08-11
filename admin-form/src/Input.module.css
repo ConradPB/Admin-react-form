@@ -13,11 +13,11 @@
 
 .inputDisplay {
     position: absolute;
-    top: 95%;
+    top: 90%;
     right: 40px;
     transform: translateY(-50%);
     background-color: #FFFFFF;
-    padding: 40px;
+    padding: 15px;
     border-radius: 10px;
 }
 
