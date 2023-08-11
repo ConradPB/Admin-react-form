@@ -13,7 +13,7 @@
 
 .inputDisplay {
     position: absolute;
-    top: 50%;
+    top: 85%;
     right: 40px;
     transform: translateY(-50%);
     background-color: #FFFFFF;
