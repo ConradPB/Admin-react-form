@@ -1,5 +1,3 @@
-
-
 .emailContainer {
     margin-top: 60px;
     overflow: auto;
@@ -11,14 +9,16 @@
     font-family: 'Montserrat', sans-serif;
     width:80%;
     max-width:800px;
-	
 }
 
 .inputDisplay {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 15px;
-
 }
 
 form {
@@ -33,7 +33,7 @@ form {
 .formColumn {
     display: flex;
     flex-direction: column;
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(25% - 20px);
     margin: 0 10px;
 }
 
