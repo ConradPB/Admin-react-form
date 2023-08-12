@@ -7,7 +7,7 @@
     border-radius: 15px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    width:80%;
+    width:70%;
     max-width:800px;
 }
 
@@ -15,9 +15,9 @@
     position: absolute;
     top: 90%;
     right: 40px;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
     background-color: #FFFFFF;
-    padding: 15px;
+    padding: 25px;
     border-radius: 10px;
 }
 
