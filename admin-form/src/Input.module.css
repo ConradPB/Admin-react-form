@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+  }
+
 .emailContainer {
     margin-top: 60px;
     overflow: auto-enabled;
@@ -14,7 +18,7 @@
     width:80%;
     max-width:800px;
     margin: 20px;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     align-items: center;
