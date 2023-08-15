@@ -1,10 +1,10 @@
 body {
     height: 100vh;
-  }
+}
 
 .emailContainer {
     margin-top: 60px;
-    overflow: auto-enabled;
+    overflow: auto;
     background-color: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
     padding: 40px;
@@ -17,15 +17,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     width:80%;
     max-width:800px;
-    margin: 20px;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    align-items: center;
-    justify-items: center;
-
-    
-    
 }
 
 .inputDisplay {
@@ -38,12 +29,8 @@ body {
     position: fixed;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
-    width: auto;
-    max-width: none;
-    margin: 20px;
-    
-    
 }
+
 form {
     display: flex;
     flex-wrap: wrap;
@@ -79,4 +66,4 @@ form {
        width :100% ;
        
     }
- }
+}
