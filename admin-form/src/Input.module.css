@@ -26,8 +26,6 @@ body {
     background-color: transparent;
     padding: 4px;
     text-align: center;
-    position: fixed;
-    transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
 }
 
