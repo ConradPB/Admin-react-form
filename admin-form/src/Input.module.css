@@ -17,12 +17,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     width:80%;
     max-width:800px;
+    min-height: 90vh; 
 }
 
 .inputDisplay {
     position: absolute;
     top: 40%;
-    left: 65%;
+    
     background-color: transparent;
     padding: 4px;
     text-align: center;
