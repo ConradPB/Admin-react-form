@@ -13,17 +13,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     width:80%;
     max-width:800px;
-    min-height: 90vh; 
 }
 
 .inputDisplay {
-    position: absolute;
-    top: 40%;
-    
-    background-color: transparent;
-    padding: 4px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 form {
@@ -38,7 +33,7 @@ form {
 .formColumn {
     display: flex;
     flex-direction: column;
-    flex-basis: calc(25% - 20px);
+    flex-basis: calc(50% - 20px);
     margin: 0 10px;
 }
 
@@ -61,4 +56,4 @@ form {
        width :100% ;
        
     }
-}
+ }
