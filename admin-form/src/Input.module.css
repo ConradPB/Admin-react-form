@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     margin: 85px;
-    padding: 85px;
+    padding: 80px;
 }
 
 .emailContainer {
@@ -9,12 +9,12 @@ body {
     overflow: auto;
     background-color: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
-    padding: 40px;
+    padding: 60px;
     border-radius: 15px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    width:80%;
-    max-width:800px;
+    width:100%;
+    max-width:1500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -24,9 +24,11 @@ body {
 .inputDisplay {
     background-color: #FFFFFF;
     padding: 20px;
+    margin-left: 20px;
     border-radius: 15px;
 }
 
+  
 form {
     display: flex;
     flex-wrap: wrap;
@@ -46,11 +48,12 @@ form {
 .formColumn label {
     margin-bottom: 10px;
 }
-
+  
+  
 @media (min-width: 600px) {
     .emailContainer,
     .inputDisplay {
-      width: 80%;
+      width: 100%;
       max-width: none;
       padding: 10px;
     }
@@ -62,4 +65,4 @@ form {
        width :100% ;
        
     }
- }
+}

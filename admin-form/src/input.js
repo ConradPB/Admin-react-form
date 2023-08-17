@@ -21,7 +21,7 @@ function Input() {
   return (
     <>
       <div className={styles.emailContainer}>
-        <h2>Welcome to United High School</h2>
+        <h2>Welcome to Cerebral High School</h2>
         <p>
           Please feel in the following information so that we can get to know you better. 
         </p>
@@ -69,8 +69,10 @@ function Input() {
         
         </form>
         <form>
-  <h3>Favorite Lunch</h3>
-  <p>What is your favorite lunch option?</p>
+          <h3>Favorite Lunch</h3> 
+          <p>
+            What is your favorite lunch option?
+            </p>
   <label>
     <input
       type="radio"
