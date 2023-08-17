@@ -1,5 +1,7 @@
 body {
     height: 100vh;
+    margin: 85px;
+    padding: 85px;
 }
 
 .emailContainer {

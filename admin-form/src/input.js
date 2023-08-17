@@ -21,7 +21,7 @@ function Input() {
   return (
     <>
       <div className={styles.emailContainer}>
-        <h2>Hello. Welcome to our school</h2>
+        <h2>Welcome to United High School</h2>
         <p>
           Please feel in the following information so that we can get to know you better. 
         </p>
