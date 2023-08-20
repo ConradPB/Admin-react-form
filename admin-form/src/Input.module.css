@@ -64,6 +64,10 @@ form p {
       max-width: none;
       padding: 10px;
     }
+    .form label {
+        display: block;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width : 800px) {

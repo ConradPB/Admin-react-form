@@ -69,8 +69,8 @@ function Input() {
         
         </form>
         <form>
-  <h3>Favorite Lunch</h3>
-  <p>What is your favorite lunch option?</p>
+  <div style={{ marginBottom: '5px' }}><h3>Favorite Lunch</h3></div>
+  <div style={{ marginTop: '10px' }}><p>What is your favorite lunch option?</p></div>
   <div style={{ marginTop: '20px' }}>
     <label>
       <input
