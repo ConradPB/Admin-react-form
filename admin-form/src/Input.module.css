@@ -32,6 +32,8 @@ body {
 form {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
+
 }
 
 .formRow {
@@ -62,7 +64,7 @@ form {
 @media (max-width : 800px) {
     .emailContainer,
     .inputDisplay {
-       width :100%;
+       width : 100%;
        max-width: none;
        padding: 10px;
        
