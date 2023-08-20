@@ -69,54 +69,55 @@ function Input() {
         
         </form>
         <form>
-          <h3>Favorite Lunch</h3> 
-          <p>
-            What is your favorite lunch option?
-            </p>
-  <label>
-    <input
-      type='radio'
-      name='favoriteLunch'
-      value='pizza'
-      onChange={handleInputChange}
-      checked={formData.favoriteLunch === 'pizza'}
-    />
-    Pizza
-  </label>
-  <br />
-  <label>
-    <input
-      type='radio'
-      name='favoriteLunch'
-      value='tacos'
-      onChange={handleInputChange}
-      checked={formData.favoriteLunch === 'tacos'}
-    />
-    Tacos
-  </label>
-  <br />
-  <label>
-    <input
-      type='radio'
-      name='favoriteLunch'
-      value='sandwich'
-      onChange={handleInputChange}
-      checked={formData.favoriteLunch === 'sandwich'}
-    />
-    Sandwich
-  </label>
-  <br />
-  <label>
-    <input
-      type='radio'
-      name='favoriteLunch'
-      value='salad'
-      onChange={handleInputChange}
-      checked={formData.favoriteLunch === 'salad'}
-    />
-    Salad
-  </label>
+  <h3>Favorite Lunch</h3>
+  <p>What is your favorite lunch option?</p>
+  <div style={{ marginTop: '20px' }}>
+    <label>
+      <input
+        type="radio"
+        name="favoriteLunch"
+        value="pizza"
+        onChange={handleInputChange}
+        checked={formData.favoriteLunch === "pizza"}
+      />
+      Pizza
+    </label>
+    <br />
+    <label>
+      <input
+        type="radio"
+        name="favoriteLunch"
+        value="tacos"
+        onChange={handleInputChange}
+        checked={formData.favoriteLunch === "tacos"}
+      />
+      Tacos
+    </label>
+    <br />
+    <label>
+      <input
+        type="radio"
+        name="favoriteLunch"
+        value="sandwich"
+        onChange={handleInputChange}
+        checked={formData.favoriteLunch === "sandwich"}
+      />
+      Sandwich
+    </label>
+    <br />
+    <label>
+      <input
+        type="radio"
+        name="favoriteLunch"
+        value="salad"
+        onChange={handleInputChange}
+        checked={formData.favoriteLunch === "salad"}
+      />
+      Salad
+    </label>
+  </div>
 </form>
+
 
 <div className={`${styles.inputDisplay}`}>
 <h2>Current User Input</h2>
