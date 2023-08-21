@@ -55,7 +55,15 @@ form p {
 .formColumn label {
     margin-bottom: 10px;
 }
+
+.formContainer {
+    display: flex; /* Display children side by side */
+}
   
+.favoriteLunchForm {
+    flex: 1; /* Allow the form to take up remaining space */
+    margin-right: 20px; /* Add some spacing between the forms */
+}
   
 @media (min-width: 600px) {
     .emailContainer,
