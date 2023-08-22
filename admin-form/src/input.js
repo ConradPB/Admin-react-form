@@ -23,7 +23,7 @@ function Input() {
       <div className={styles.emailContainer}>
         <h2>Welcome to Cerebral High School</h2>
         <p>
-          Please feel in the following information so that we can get to know you better. 
+          Please fill in the following information so that we can get to know you better. 
         </p>
         
         <form>
@@ -60,6 +60,11 @@ function Input() {
               <label htmlFor='address'>Address: </label>
               <input id='address' name='address' type='text' onChange={handleInputChange} value={formData.address} />
               
+            </div>
+            <div className={styles.formColumn}>
+              <br />
+              <label htmlFor='homeRoomClassNumber'>Home Room Class Number: </label>
+              <input id='homeRoomClassNumber' name='homeRoomClassNumber' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
             </div>
             <div className={styles.formColumn}>
               <br />
