@@ -15,16 +15,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     width:100%;
     max-width:1500px;
-    margin: 0 auto;
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 .inputDisplay {
     background-color: #FFFFFF;
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     border-radius: 15px;
 }
 
@@ -32,7 +32,6 @@ body {
 form {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px !important;
 
 }
 
@@ -56,14 +55,6 @@ form p {
     margin-bottom: 10px;
 }
 
-.formContainer {
-    display: flex; /* Display children side by side */
-}
-  
-.favoriteLunchForm {
-    flex: 1; /* Allow the form to take up remaining space */
-    margin-right: 20px; /* Add some spacing between the forms */
-}
   
 @media (min-width: 600px) {
     .emailContainer,
