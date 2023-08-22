@@ -68,8 +68,8 @@ function Input() {
             </div>
             <div className={styles.formColumn}>
               <br />
-              <label htmlFor='homeRoomClassNumber'>Home Room Class Number: </label>
-              <input id='homeRoomClassNumber' name='homeRoomClassNumber' type='text' onChange={handleInputChange} value={formData.homeRoomClassNumber} />
+              <label htmlFor='studentId'>Student ID: </label>
+              <input id='studentId' name='studentId' type='text' onChange={handleInputChange} value={formData.studentId} />
             </div>
           </div>
         
