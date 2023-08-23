@@ -2,6 +2,7 @@ body {
     height: 100vh;
     margin: 85px;
     padding: 80px;
+    position: absolute;
 }
 
 .emailContainer {
@@ -15,16 +16,14 @@ body {
     max-width:1500px;
     display: flex;
     flex-direction: column;
-    position:left;
-    top: 0;
-    left: 0;
+    
     
     
 }
 
 .inputDisplay {
     background-color: #FFFFFF00;
-    margin-left: 5px;
+    margin-left: -2%;
     border-radius: 15px;
 }
 
@@ -33,16 +32,12 @@ form {
     display: flex;
     flex-wrap: wrap;
     width: 500px;
-    flex-direction: column;
-   
 
 }
   
 
 .formRow {
     flex-basis: 100%;
-    justify-content: space-between;
-    width: 100%;
 }
   
 .formColumn {

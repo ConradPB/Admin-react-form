@@ -140,6 +140,10 @@ function Input() {
 
 </div>
 
+<div className={styles.submitButtonContainer}>
+        <button className={styles.submitButton}>Submit</button>
+      </div>
+
 </>
 
 );
