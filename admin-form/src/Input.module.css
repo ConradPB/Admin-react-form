@@ -67,6 +67,11 @@ form {
     transition: background-color 0.3s, transform 0.3s;
 }
   
+.submitButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
 @media (min-width: 600px) {
     .emailContainer,
     .inputDisplay {
