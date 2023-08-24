@@ -80,44 +80,44 @@ function Input() {
   
     <label>
       <input
-        type="radio"
-        name="favoriteLunch"
-        value="pizza"
+        type='radio'
+        name='favoriteLunch'
+        value='pizza'
         onChange={handleInputChange}
-        checked={formData.favoriteLunch === "pizza"}
+        checked={formData.favoriteLunch === 'pizza'}
       />
       Pizza
     </label>
     <br />
     <label>
       <input
-        type="radio"
-        name="favoriteLunch"
-        value="tacos"
+        type='radio'
+        name='favoriteLunch'
+        value='tacos'
         onChange={handleInputChange}
-        checked={formData.favoriteLunch === "tacos"}
+        checked={formData.favoriteLunch === 'tacos'}
       />
       Tacos
     </label>
     <br />
     <label>
       <input
-        type="radio"
-        name="favoriteLunch"
-        value="sandwich"
+        type='radio'
+        name='favoriteLunch'
+        value='sandwich'
         onChange={handleInputChange}
-        checked={formData.favoriteLunch === "sandwich"}
+        checked={formData.favoriteLunch === 'sandwich'}
       />
       Sandwich
     </label>
     <br />
     <label>
       <input
-        type="radio"
-        name="favoriteLunch"
-        value="salad"
+        type='radio'
+        name='favoriteLunch'
+        value='salad'
         onChange={handleInputChange}
-        checked={formData.favoriteLunch === "salad"}
+        checked={formData.favoriteLunch === 'salad'}
       />
       Salad
     </label>
