@@ -73,6 +73,7 @@ form {
 }
 
 .container {
+    margin-top: 40%;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center horizontally */
