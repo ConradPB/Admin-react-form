@@ -35,7 +35,6 @@ form {
     width: 500px;
 
 }
-  
 
 .formRow {
     flex-basis: 100%;
@@ -73,6 +72,19 @@ form {
     transform: scale(1.05);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+  }
+  
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Add other heading styles as needed */
+}
 
 
 @media (min-width: 600px) {
