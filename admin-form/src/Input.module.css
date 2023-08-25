@@ -6,7 +6,7 @@ body {
 }
 
 .emailContainer {
-    margin-top: 35%;
+    margin-top: 15%;
     background-color: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
     border-radius: 15px;
@@ -73,7 +73,7 @@ form {
 }
 
 .container {
-    margin-top: 40%;
+    margin-top: 70%;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center horizontally */
@@ -83,8 +83,7 @@ form {
   
 .heading {
     text-align: center;
-    margin-bottom: 20px;
-    /* Add other heading styles as needed */
+ 
 }
 
 
