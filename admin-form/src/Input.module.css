@@ -2,12 +2,10 @@ body {
     height: 100vh;
     margin: 85px;
     padding: 80px;
-    position: absolute;
 }
 
 .emailContainer {
     margin-top: 0%;
-    box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
     border-radius: 15px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -81,7 +79,7 @@ form {
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
     min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #ffffff;
     box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     width:100%;
@@ -95,7 +93,7 @@ form {
 
 
 @media (min-width: 600px) {
-    .emailContainer,
+    
     .container,
     .inputDisplay {
       width: 100%;
@@ -109,11 +107,14 @@ form {
 }
 
 @media (max-width : 800px) {
-    .emailContainer,
+    
+    .container,
     .inputDisplay {
        width : 100%;
        max-width: none;
        padding: 10px;
        
     }
+
 }
+
